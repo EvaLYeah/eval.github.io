@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on EvaL`s Blog</title>
+    <link>https://eval.buzz/posts/</link>
+    <description>Recent content in Posts on EvaL`s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://eval.buzz/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo &#43; Github 搭建个人网站指南</title>
+      <link>https://eval.buzz/2020/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eval.buzz/2020/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</guid>
+      <description>搭建前准备 在使用hugo + GitHub搭建个人网站之前，你需要拥有： 一个GitHub账号 GitHub 一台下载了hugo的电脑 hugo下载官方介绍文档 h</description>
+    </item>
+    
+  </channel>
+</rss>

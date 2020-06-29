@@ -2,36 +2,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
     <url>
-      <loc>https://eval.buzz/</loc>
-      
-      <lastmod>2020-06-29T22:54:36+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://eval.buzz/post/</loc>
-      
-      <lastmod>2020-06-29T22:54:36+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
-      <loc>https://eval.buzz/post/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
-      
-      <lastmod>2020-06-29T22:54:36+08:00</lastmod>
-      
-      
-      
-      
-    </url>
-  
-    <url>
       <loc>https://eval.buzz/about/</loc>
       
       <lastmod>2020-06-29T22:52:44+08:00</lastmod>
@@ -42,7 +12,89 @@
     </url>
   
     <url>
+      <loc>https://eval.buzz/tags/blogs/</loc>
+      
+      <lastmod>2020-06-29T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://eval.buzz/categories/blogs/</loc>
+      
+      <lastmod>2020-06-29T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
       <loc>https://eval.buzz/categories/</loc>
+      
+      <lastmod>2020-06-29T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://eval.buzz/</loc>
+      
+      <lastmod>2020-06-29T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://eval.buzz/categories/github/</loc>
+      
+      <lastmod>2020-06-29T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://eval.buzz/tags/github-pages/</loc>
+      
+      <lastmod>2020-06-29T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://eval.buzz/tags/hugo/</loc>
+      
+      <lastmod>2020-06-29T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://eval.buzz/2020/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
+      
+      <lastmod>2020-06-29T00:00:00+00:00</lastmod>
+      
+      
+      
+      
+    </url>
+  
+    <url>
+      <loc>https://eval.buzz/posts/</loc>
+      
+      <lastmod>2020-06-29T00:00:00+00:00</lastmod>
       
       
       
@@ -51,6 +103,8 @@
   
     <url>
       <loc>https://eval.buzz/tags/</loc>
+      
+      <lastmod>2020-06-29T00:00:00+00:00</lastmod>
       
       
       
