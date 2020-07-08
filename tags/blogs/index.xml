@@ -6,10 +6,19 @@
     <description>Recent content in blogs on EvaL`s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://eval.buzz/tags/blogs/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>我的第二篇博客</title>
+      <link>https://eval.buzz/2020/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Wed, 08 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://eval.buzz/2020/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
+      <description>我的第二篇博客 这是我的第二篇博客 哈哈哈哈哈哈啊哈哈哈</description>
+    </item>
     
     <item>
       <title>Hugo &#43; Github 搭建个人网站指南</title>
