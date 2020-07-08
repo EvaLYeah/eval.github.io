@@ -10,7 +10,7 @@
     
     
     
-    
+    <link rel="next" href="https://eval.buzz/2020/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/" />
     <link rel="canonical" href="https://eval.buzz/2020/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -56,7 +56,7 @@
     "datePublished": "2020-06-29 00:00:00 \u002b0000 UTC",
     "dateModified" : "2020-06-29 00:00:00 \u002b0000 UTC",
     "url" : "https:\/\/eval.buzz\/2020\/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0\/",
-    "wordCount" : "1011",
+    "wordCount" : "995",
     "keywords" : [ "hugo","github pages","blogs", "EvaL`s Blog"]
 }
 </script>
@@ -168,7 +168,7 @@
                         
                         
                 </span>
-                <span class="post-word-count">1011 words</span>
+                <span class="post-word-count">995 words</span>
         </div>
     </header>
 
@@ -176,6 +176,8 @@
         
 
         
+        
+            
         
 
         
@@ -202,21 +204,21 @@
 <h3 id="第一步创建一个新的站点">第一步：创建一个新的站点</h3>
 <pre><code>hugo new site evalyeah
 </code></pre><p>这里的evalyeah是指站点名称，可以修改为自己的站点名称，创建成功后，会创建一个新的叫evalyeah的目录，如下图</p>
-<p>![image-20200629205108380](/Users/liuyuhao/Library/Application Support/typora-user-images/pic1.png)</p>
+<p><img src="resources/_gen/images/pic1.png" alt="pic1" loading="lazy" ></p>
 <h3 id="第二步给站点增加一个主题">第二步：给站点增加一个主题</h3>
 <p>这里我以<code>jane</code>主题为例 <a href="https://github.com/xianmin/hugo-theme-jane/blob/master/README-zh.md">jane主题</a></p>
 <p>以下分别是指，进入站点目录后，将站点目录git初始化，然后将整个主题克隆至<code>themes</code>文件夹</p>
 <pre><code>cd evalyeah
 git clone https://github.com/xianmin/hugo-theme-jane.git --depth=1 themes/jane
 </code></pre><p>克隆完成后，我的站点<code>themes</code>目录中会出现<code>jane</code>目录，如下图</p>
-<p>![image-20200629210638668](/Users/liuyuhao/Library/Application Support/typora-user-images/pic2.png)</p>
+<p><img src="resources/_gen/images/pic2.png" alt="pic2" loading="lazy" ></p>
 <p>然后我们复制一些主题的示例文本和默认设置</p>
 <pre><code>cp -r themes/jane/exampleSite/content ./
 cp themes/jane/exampleSite/config.toml ./
 </code></pre><p>复制完后<code>content</code>目录中会出现一些文档</p>
-<p>![image-20200629210908733](/Users/liuyuhao/Library/Application Support/typora-user-images/pic3.png)</p>
+<p><img src="resources/_gen/images/pic3.png" alt="pic3" loading="lazy" ></p>
 <p>复制完后<code>config.toml</code>会出现相关默认配置</p>
-<p>![image-20200629211029969](/Users/liuyuhao/Library/Application Support/typora-user-images/pic4.png)</p>
+<p><img src="resources/_gen/images/pic4.png" alt="pic4" loading="lazy" ></p>
 <h3 id="第三步给站点中增加一些内容">第三步：给站点中增加一些内容</h3>
 <pre><code>hugo new post/Hugo+GitHub搭建个人网站.md
 </code></pre><p>打开此Hugo+GitHub搭建个人网站.md文档，会出现如下基础配置：</p>
@@ -229,7 +231,7 @@ draft: true
 <h3 id="第四步打开hugo-server">第四步：打开hugo server</h3>
 <pre><code>hugo server -D
 </code></pre><p>打开后可在http://localhost:1313/中预览网站情况</p>
-<p>![image-20200629212015541](/Users/liuyuhao/Library/Application Support/typora-user-images/pic5.png)</p>
+<p><img src="resources/_gen/images/pic5.png" alt="pic5" loading="lazy" ></p>
 <h3 id="第五步修改基础配置">第五步：修改基础配置</h3>
 <p>在<code>config.toml</code>文件中修改相关配置</p>
 <pre><code>baseURL = &quot;https://eval.buzz&quot;
@@ -239,7 +241,7 @@ theme = &quot;jane&quot;
 </code></pre><h3 id="第六步生成静态页面">第六步：生成静态页面</h3>
 <pre><code>hugo -D
 </code></pre><p>成功生成后会产生<code>public</code>目录，如下图</p>
-<p>![image-20200629212746879](/Users/liuyuhao/Library/Application Support/typora-user-images/pic6.png)</p>
+<p><img src="resources/_gen/images/pic6.png" alt="pic6" loading="lazy" ></p>
 <p>至此，hugo搭建完毕，接下来使用GitHub pages预览HTML</p>
 <h2 id="github托管部分">GitHub托管部分</h2>
 <h3 id="第一步新建站点目录仓库">第一步：新建站点目录仓库</h3>
@@ -248,8 +250,8 @@ theme = &quot;jane&quot;
 <h3 id="第二步新建public仓库">第二步：新建public仓库</h3>
 <p>新建xxx.github.io仓库，并将public目录push到本仓库中</p>
 <p>在设置中找到GitHub pages，即可通过GitHub pages预览已生成的静态页面</p>
-<p>![image-20200629213808502](/Users/liuyuhao/Library/Application Support/typora-user-images/pic7.png)</p>
-<p>![image-20200629213835984](/Users/liuyuhao/Library/Application Support/typora-user-images/pic8.png)</p>
+<p><img src="resources/_gen/images/pic7.png" alt="pic7" loading="lazy" ></p>
+<p><img src="resources/_gen/images/pic8.png" alt="pic8" loading="lazy" ></p>
 <p>至此，就可以用GitHub pages预览hugo搭建的静态页面啦。</p>
 <h2 id="如何发表第二篇文章">如何发表第二篇文章</h2>
 <h3 id="第一步创建一篇新的文章">第一步：创建一篇新的文章</h3>
@@ -307,6 +309,8 @@ git push -f
 
     <div class="post-nav">
         
+        
+        <a href="https://eval.buzz/2020/%E6%88%91%E7%9A%84%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="next" rel="next" title="我的第二篇博客">我的第二篇博客&nbsp;<i class="iconfont icon-right"></i></a>
         
     </div>
 
